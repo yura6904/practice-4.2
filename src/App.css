@@ -1,38 +1,73 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.InputHeader {
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.InputHeader >.Labels {
+  margin-right: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.InputHeader >.Labels >p {
+  margin: 25px;
+}
+
+.inputs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.inputs >input {
+  width: 140px;
+  height: 25px;
+  margin: 15px;
+}
+.inputs >button {
+  margin: 15px;
+  width: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.Labels {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Table {
+  display: block;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
 }
+
+.Table >.Labels >p {
+  margin: 5px 30px;
+}
+
+.table-element {
+  display: flex;
+  justify-content: center;
+}
+
+.table-element >div {
+  justify-content: center;
+  padding: 5px 65px 5px 65px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.table-border {
+  width: 35%;
+  border: solid 2px black;
+  border-radius: 1rem;
+  margin-left: 33%;
+  height: 100%;
+  margin-top: 15px;
+}
+
